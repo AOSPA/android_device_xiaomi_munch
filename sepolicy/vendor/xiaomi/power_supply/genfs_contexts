@@ -1,3 +1,7 @@
+# Wakeup source stats
+genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify/wakeup43                                             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify/wakeup46                                             u:object_r:sysfs_wakeup:s0
+
 # Xiaomi power supply sysfs
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-0051/power_supply/bq2597x-master                                             u:object_r:vendor_sysfs_battery_supply:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-0066/power_supply/bq2597x-master                                             u:object_r:vendor_sysfs_battery_supply:s0
