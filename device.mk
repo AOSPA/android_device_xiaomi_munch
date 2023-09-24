@@ -159,9 +159,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.qdcm.mode_combine=1 \
     vendor.display.use_layer_ext=0
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/displayconfig/display_id_4630946736638489729.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946736638489729.xml
-
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
