@@ -1345,11 +1345,6 @@ vendor/bin/time_daemon|5ac6b1af3c41eecad1e522df8e272db5fab86523
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|17547993adc4fb9cb1cdc1abbd765f4ef9a05f09
 
-# TrustedUI - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|772dfdebadcfb9af3e6253fd3baf6d7502394ddd
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|409e97dc747e425fe86e7e98a13a15498813b76b
-
 # UBWC - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 vendor/lib/libstreamparser.so|935aabbbde4806bad2e09453c73004238d69db6f
 
