@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "MunchCNWifiOverlay",
-    vendor: true
+    product_specific: true
 }

@@ -8,5 +8,5 @@ runtime_resource_overlay {
     name: "MunchCarrierConfigOverlay",
     aaptflags: ["--keep-raw-values"],
     sdk_version: "current",
-    vendor: true,
+    product_specific: true,
 }

@@ -14,5 +14,5 @@
 
 runtime_resource_overlay {
     name: "MunchNfcOverlay",
-    vendor: true,
+    product_specific: true,
 }
