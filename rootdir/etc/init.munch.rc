@@ -70,6 +70,10 @@ on boot
     mkdir /mnt/vendor/persist/camera 0755 system cameraserver
     write /sys/block/sda/queue/wbt_lat_usec 75000
 
+    # Health
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+
 on charger
     mkdir /mnt/vendor/persist
     chown root system /mnt/vendor/persist

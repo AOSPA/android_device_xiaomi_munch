@@ -255,6 +255,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.keystore_desede=true \
     vendor.gatekeeper.disable_spu=true
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
