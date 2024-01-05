@@ -101,7 +101,6 @@ vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libsmwrapper.so
 vendor/lib/libssrec.so
-vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libtinycompress.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
@@ -746,6 +745,7 @@ vendor/lib/libdapparamstorage.so
 vendor/lib/libdeccfg.so
 vendor/lib/libstagefright_soft_ac4dec.so
 vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/soundfx/libhwdap.so
 vendor/lib/soundfx/libswgamedap.so
 vendor/lib/soundfx/libswvqe.so
