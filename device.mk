@@ -196,10 +196,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
-# FUSE
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.fuse.passthrough.enable=true
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
@@ -208,10 +204,6 @@ PRODUCT_PACKAGES += \
 # IDC
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
-
-# Incremental FS
-PRODUCT_VENDOR_PROPERTIES += \
-    ro.incremental.enable=1
 
 # Init scripts
 PRODUCT_COPY_FILES += \
@@ -307,9 +299,6 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
-# Project ID Quota
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
-
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
@@ -373,6 +362,15 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # SOC Properties
 PRODUCT_VENDOR_PROPERTIES += \
     ro.soc.model=SM8250
+
+# Storage
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.incremental.enable=1
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.fuse.passthrough.enable=true
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # Subsystem silent restart
 PRODUCT_VENDOR_PROPERTIES += \
