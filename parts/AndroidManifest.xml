@@ -41,7 +41,8 @@
         <activity
             android:name=".dolby.DolbyActivity"
             android:label="@string/dolby_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
@@ -56,6 +57,17 @@
             <meta-data android:name="com.android.settings.summary_uri"
                        android:value="content://org.lineageos.settings.device.summary/dolby" />
         </activity>
+
+        <service
+            android:name=".dolby.DolbyTileService"
+            android:icon="@drawable/ic_dolby_qs"
+            android:label="@string/dolby_title"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
 
         <provider
             android:name=".SummaryProvider"
@@ -106,16 +118,6 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service-->
-
-        <service
-            android:name=".dolby.DolbyTileService"
-            android:icon="@drawable/ic_dolby_qs"
-            android:label="@string/dolby_title"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
 
         <activity
             android:name=".refreshrate.RefreshActivity"
