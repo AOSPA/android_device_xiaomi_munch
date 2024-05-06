@@ -16,6 +16,24 @@
       "message": "this seems pointless if no blob has changed, please update sha1 if it has",
       "revId": "9a60d4b83bad10119e662f015861f85dfed2816d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3758f9e_29e5cade",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001000
+      },
+      "writtenOn": "2024-05-06T17:51:38Z",
+      "side": 1,
+      "message": "The blobs files updated this time originally did not have sha1, only non-pinned ones\n\nhttps://github.com/ThankYouMario/proprietary_vendor_xiaomi/pull/5/commits/4354cc8b7619310058fd7ded4c9e4318ed25fe36",
+      "parentUuid": "acc79e13_d70469b9",
+      "revId": "9a60d4b83bad10119e662f015861f85dfed2816d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
