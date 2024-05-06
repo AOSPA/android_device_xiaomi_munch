@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acc79e13_d70469b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-05-06T17:42:40Z",
+      "side": 1,
+      "message": "this seems pointless if no blob has changed, please update sha1 if it has",
+      "revId": "9a60d4b83bad10119e662f015861f85dfed2816d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
