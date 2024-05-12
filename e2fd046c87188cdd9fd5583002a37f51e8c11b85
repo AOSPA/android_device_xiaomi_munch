@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed8e960a_4ed02c5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-05-12T07:08:03Z",
+      "side": 1,
+      "message": "squash with the original commit, it\u0027s not merged",
+      "revId": "e2fd046c87188cdd9fd5583002a37f51e8c11b85",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
