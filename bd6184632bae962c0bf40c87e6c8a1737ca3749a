@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be575abf_2a5be23f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2024-05-12T07:07:47Z",
+      "side": 1,
+      "message": "we don\u0027t ship servicetracker hidl",
+      "revId": "bd6184632bae962c0bf40c87e6c8a1737ca3749a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
