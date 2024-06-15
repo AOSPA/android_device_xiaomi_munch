@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fc59334_a9ab6444",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2024-06-15T16:05:33Z",
+      "side": 1,
+      "message": "A better solution:\nhttps://gerrit.aospa.co/c/AOSPA/android_device_xiaomi_munch/+/40246",
+      "revId": "29f9da3770028bebadec1d8a76af61f1c093f357",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
