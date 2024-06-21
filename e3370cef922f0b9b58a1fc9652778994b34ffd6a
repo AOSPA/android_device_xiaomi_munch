@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e330b08_b1fb0100",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001000
+      },
+      "writtenOn": "2024-06-21T20:09:46Z",
+      "side": 1,
+      "message": "vendor update commit: https://github.com/lgjint/proprietary_vendor_xiaomi/commit/998ac4c135b0c387c96ceee50c270c33e277c043",
+      "revId": "e3370cef922f0b9b58a1fc9652778994b34ffd6a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
