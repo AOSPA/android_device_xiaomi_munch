@@ -1,4 +1,4 @@
-# Device proprietary files - from munch MIUI V14.0.3.0.TLMMIXM package, unless pinned
+# Device proprietary files - from munch HyperOS V816.0.2.0.ULMMIXM package, unless pinned
 
 # ADSP - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 vendor/bin/loadalgo|487e763413fecc0fb1d57f271df03ad5db824a46
@@ -550,7 +550,7 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 
-# Camera-sensor (Redmi K40S) - from munch MIUI V14.0.3.0.TLMCNXM
+# Camera-sensor (Redmi K40S) - from munch HyperOS V816.0.2.0.ULMMIXM
 vendor/lib64/camera/com.qti.sensormodule.munch_ofilm_imx582_wide.bin|2e2c737b926f67859917f5067fdc8027eac83c08
 
 # Certificate Authority - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
